@@ -3,7 +3,6 @@
     "description": "This is simple AmoCRM integration built for tesk task",
     "type": "project",
     "require": {
-        "amocrm/amocrm-api-library": "^0.2.5"
     },
     "autoload": {
         "psr-4": {"App\\": "app/"}

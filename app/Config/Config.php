@@ -11,14 +11,16 @@ class Config {
     private $CLIENT_SECRET;
     private $CLIENT_REDIRECT_URI;
     private $CLIENT_REFERER;
+    private $CLIENT_SUBDOMAIN;
 
     public function __construct() {
         $this->URL_ROOT                 = "http://localhost";
         $this->APP_ROOT                 = dirname(__DIR__);
-        $this->CLIENT_REFERER           = "skidanovilia.amocrm.ru";
-        $this->CLIENT_ID                = "607c8998-4cf9-40e7-89ff-c4a6f049388f";
-        $this->CLIENT_SECRET            = "zqJdf0rzRBOJXnBnSwiDWCPlmpivssQkMY6MSSkP1csZQGxtsSEEkKlIXCz8gTKo";
-        $this->CLIENT_REDIRECT_URI      = "http://327439-cp75658.tmweb.ru/";
+        $this->CLIENT_REFERER           = "CLIENT_REFERER";
+        $this->CLIENT_ID                = "CLIENT_ID";
+        $this->CLIENT_SECRET            = "CLIENT_SECRET";
+        $this->CLIENT_REDIRECT_URI      = "CLIENT_REDIRECT_URI";
+        $this->CLIENT_SUBDOMAIN         = "CLIENT_SUBDOMAIN";
     }
 
     function __get($prop) {
