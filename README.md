@@ -17,7 +17,6 @@ $ php composer.phar update
 public function __construct() {
   $this->URL_ROOT                 = "http://localhost";
   $this->APP_ROOT                 = dirname(__DIR__);
-  $this->CLIENT_REFERER           = "CLIENT_REFERER";
   $this->CLIENT_ID                = "CLIENT_ID";
   $this->CLIENT_SECRET            = "CLIENT_SECRET";
   $this->CLIENT_REDIRECT_URI      = "CLIENT_REDIRECT_URI";

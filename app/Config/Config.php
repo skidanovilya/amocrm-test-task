@@ -10,13 +10,11 @@ class Config {
     private $CLIENT_ID;
     private $CLIENT_SECRET;
     private $CLIENT_REDIRECT_URI;
-    private $CLIENT_REFERER;
     private $CLIENT_SUBDOMAIN;
 
     public function __construct() {
         $this->URL_ROOT                 = "http://localhost";
         $this->APP_ROOT                 = dirname(__DIR__);
-        $this->CLIENT_REFERER           = "CLIENT_REFERER";
         $this->CLIENT_ID                = "CLIENT_ID";
         $this->CLIENT_SECRET            = "CLIENT_SECRET";
         $this->CLIENT_REDIRECT_URI      = "CLIENT_REDIRECT_URI";
